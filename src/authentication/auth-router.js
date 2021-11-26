@@ -14,11 +14,6 @@ authRouter.get('/logout', (req, res) => {
     res.render('logged out');
 });
 
-// auth with google
-authRouter.get('/google', (res, res) => {
-    // handle with passport
-    res.send('logging in with google')
-});
 
 
 module.exports = authRouter;
